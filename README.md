@@ -10,7 +10,7 @@ An intelligent web application that evaluates a resume against a job description
 
 ## Tech Stack 🛠️
 *   **Frontend:** Streamlit
-*   **AI Model:** Google Gemini 2.0 Flash (`gemini-2.0-flash`)
+*   **AI Model:** Google Gemini 3.8 Flash (`gemini-3.8-flash`)
 *   **PDF Parsing:** PyPDF2
 
 ## Getting Started 🚀
