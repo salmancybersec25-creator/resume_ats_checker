@@ -1,17 +1,24 @@
-# 📄 AI ATS Resume Checker
+# AI ATS Resume Checker 📄
 
-An AI-powered web app that checks how well your resume matches a job description. Built with Python, Streamlit, and Google Gemini AI.
+An intelligent web application that evaluates a resume against a job description using Google's Gemini 2.0 Flash model. It provides an ATS score, missing keywords, formatting issues, and actionable improvement tips.
 
-## ✨ What it does
-*   **ATS Score:** Gives your resume a score out of 100.
-*   **Missing Keywords:** Shows what skills you forgot to include.
-*   **Actionable Tips:** Tells you exactly how to improve your resume.
+## Features ✨
+*   **ATS Score:** Get a match percentage out of 100.
+*   **Keyword Analysis:** Identifies missing skills and keywords.
+*   **Actionable Feedback:** Suggests improvements to your resume.
+*   **Easy to Use:** Simple UI with file upload and text area.
 
-## 🛠️ Built With
-*   **Python**
-*   **Streamlit** (for the web interface)
-*   **Google Gemini API** (for AI analysis)
-*   **pypdf** (to read the PDF resume)
+## Tech Stack 🛠️
+*   **Frontend:** Streamlit
+*   **AI Model:** Google Gemini 2.0 Flash (`gemini-2.0-flash`)
+*   **PDF Parsing:** PyPDF2
 
-## 🚀 Try it Live
-👉 **[Click here to use the App](INSERT_YOUR_STREAMLIT_URL_HERE)**
+## Getting Started 🚀
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the app: `streamlit run app.py`
+4. Enter your Google Gemini API key in the sidebar.
+5. Upload your resume and paste the job description.
+
+## Deployment ☁️
+This app can be easily deployed on Streamlit Community Cloud. Follow the steps in the deployment guide below.
